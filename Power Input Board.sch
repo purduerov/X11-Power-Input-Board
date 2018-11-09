@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4158,6 +4158,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.508" y1="-1.524" x2="0.508" y2="-1.524" width="0.254" layer="94"/>
 <text x="0" y="-1.778" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:39418/1" library_version="1">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND2" urn="urn:adsk.eagle:component:39442/1" prefix="GND" library_version="1">
@@ -4165,6 +4172,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Ground supply with a traditional "earth ground" symbol.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="GND" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:39449/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Positive voltage supply (traditionally for a BJT device, C=collector).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -5260,6 +5281,66 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 </deviceset>
 </devicesets>
 </library>
+<library name="DIODE">
+<packages>
+<package name="DIODE">
+<text x="0" y="8.89" size="1.27" layer="21">&gt;NAME</text>
+<smd name="IN1" x="2.705" y="-6.023" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+<smd name="IN2" x="7.785" y="-6.023" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+<smd name="OUT" x="5.245" y="4.19" dx="10.49" dy="8.38" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="IN2" x="0" y="-12.7" visible="pad" length="middle" rot="R90"/>
+<pin name="OUT" x="0" y="10.16" visible="pad" length="middle" rot="R270"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIODE">
+<connects>
+<connect gate="G$1" pin="IN2" pad="IN1 IN2"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5291,6 +5372,10 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <part name="+48V" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="VCC" device="" value="48V"/>
 <part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
 <part name="U$2" library="board_outlines" deviceset="BOARD" device="PDB"/>
+<part name="U$3" library="DIODE" deviceset="DIODE" device=""/>
+<part name="U$4" library="DIODE" deviceset="DIODE" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5351,6 +5436,10 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <attribute name="NAME" x="133.35" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U$2" gate="G$1" x="215.9" y="241.3"/>
+<instance part="U$3" gate="G$1" x="284.48" y="213.36"/>
+<instance part="U$4" gate="G$1" x="327.66" y="213.36"/>
+<instance part="SUPPLY1" gate="G$1" x="284.48" y="236.22"/>
+<instance part="SUPPLY2" gate="G$1" x="327.66" y="236.22"/>
 </instances>
 <busses>
 </busses>
@@ -5450,6 +5539,34 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="+48V" gate="VCC" pin="VCC"/>
 <wire x1="142.24" y1="215.9" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+12V_1" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="IN2"/>
+<wire x1="284.48" y1="200.66" x2="284.48" y2="185.42" width="0.1524" layer="91"/>
+<label x="283.5" y="185.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="+12V_2" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="IN2"/>
+<wire x1="327.66" y1="200.66" x2="327.66" y2="185.42" width="0.1524" layer="91"/>
+<label x="327" y="186" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="OUT"/>
+<wire x1="284.48" y1="223.52" x2="284.48" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<label x="284" y="228" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="OUT"/>
+<wire x1="327.66" y1="223.52" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<label x="327" y="228" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

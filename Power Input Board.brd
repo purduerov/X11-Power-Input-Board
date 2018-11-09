@@ -414,6 +414,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="DIODE">
+<packages>
+<package name="DIODE">
+<text x="0" y="8.89" size="1.27" layer="21">&gt;NAME</text>
+<smd name="IN1" x="2.705" y="-6.023" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+<smd name="IN2" x="7.785" y="-6.023" dx="3.504" dy="1.016" layer="1" rot="R90"/>
+<smd name="OUT" x="5.245" y="4.19" dx="10.49" dy="8.38" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -652,6 +662,8 @@ design rules under a new name.</description>
 <attribute name="VDSS" value="60V" x="106.52" y="31.13" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$2" library="board_outlines" package="PDB" value="BOARDPDB" x="0" y="0"/>
+<element name="U$3" library="DIODE" package="DIODE" value="DIODE" x="-12" y="7"/>
+<element name="U$4" library="DIODE" package="DIODE" value="DIODE" x="-24" y="7"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -701,6 +713,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="VCC">
 <contactref element="Q1" pad="1"/>
+</signal>
+<signal name="+12V_1">
+<contactref element="U$3" pad="IN1"/>
+<contactref element="U$3" pad="IN2"/>
+<wire x1="-4.215" y1="0.977" x2="-9.295" y2="0.977" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+12V_2">
+<contactref element="U$4" pad="IN1"/>
+<contactref element="U$4" pad="IN2"/>
+<wire x1="-16.215" y1="0.977" x2="-21.295" y2="0.977" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+12V">
+<contactref element="U$3" pad="OUT"/>
+<contactref element="U$4" pad="OUT"/>
+<wire x1="-6.755" y1="11.19" x2="-18.755" y2="11.19" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
