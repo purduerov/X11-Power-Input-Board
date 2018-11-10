@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5344,45 +5344,45 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <library name="PDB_TO_BRICKS">
 <packages>
 <package name="BRICK_TO_POWER_DIST_WHOLE">
-<pad name="GND6" x="17.99" y="34.51" drill="1" rot="R90"/>
-<pad name="GND7" x="20.53" y="34.51" drill="1" rot="R90"/>
-<pad name="GND8" x="23.07" y="34.51" drill="1" rot="R90"/>
-<pad name="GND9" x="25.61" y="34.51" drill="1" rot="R90"/>
-<pad name="GND10" x="28.15" y="34.51" drill="1" rot="R90"/>
-<pad name="+12V6" x="31.96" y="34.51" drill="1" rot="R90"/>
-<pad name="+12V7" x="34.5" y="34.51" drill="1" rot="R90"/>
-<pad name="+12V8" x="37.04" y="34.51" drill="1" rot="R90"/>
-<pad name="+12V9" x="39.58" y="34.51" drill="1" rot="R90"/>
-<pad name="+12V10" x="42.12" y="34.51" drill="1" rot="R90"/>
-<pad name="GND1" x="17.99" y="37.05" drill="1" rot="R90"/>
-<pad name="GND2" x="20.53" y="37.05" drill="1" rot="R90"/>
-<pad name="GND3" x="23.07" y="37.05" drill="1" rot="R90"/>
-<pad name="GND4" x="25.61" y="37.05" drill="1" rot="R90"/>
-<pad name="GND5" x="28.15" y="37.05" drill="1" rot="R90"/>
-<pad name="+12V1" x="31.96" y="37.05" drill="1" rot="R90"/>
-<pad name="+12V2" x="34.5" y="37.05" drill="1" rot="R90"/>
-<pad name="+12V3" x="37.04" y="37.05" drill="1" rot="R90"/>
-<pad name="+12V4" x="39.58" y="37.05" drill="1" rot="R90"/>
-<pad name="+12V5" x="42.12" y="37.05" drill="1" rot="R90"/>
+<pad name="GND6" x="31.96" y="34.51" drill="1" rot="R90"/>
+<pad name="GND7" x="34.5" y="34.51" drill="1" rot="R90"/>
+<pad name="GND8" x="37.04" y="34.51" drill="1" rot="R90"/>
+<pad name="GND9" x="39.58" y="34.51" drill="1" rot="R90"/>
+<pad name="GND10" x="42.12" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V6" x="17.99" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V7" x="20.53" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V8" x="23.07" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V9" x="25.61" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V10" x="28.15" y="34.51" drill="1" rot="R90"/>
+<pad name="GND1" x="31.96" y="37.05" drill="1" rot="R90"/>
+<pad name="GND2" x="34.5" y="37.05" drill="1" rot="R90"/>
+<pad name="GND3" x="37.04" y="37.05" drill="1" rot="R90"/>
+<pad name="GND4" x="39.58" y="37.05" drill="1" rot="R90"/>
+<pad name="GND5" x="42.12" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V1" x="17.99" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V2" x="20.53" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V3" x="23.07" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V4" x="25.61" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V5" x="28.15" y="37.05" drill="1" rot="R90"/>
 <pad name="P$5" x="18.625" y="3.93" drill="1" rot="R90"/>
 <pad name="ON/OFF" x="21.165" y="3.93" drill="1" rot="R90"/>
 <pad name="P$3" x="23.705" y="3.93" drill="1" rot="R90"/>
-<pad name="48V_GND3" x="26.245" y="3.93" drill="1" rot="R90"/>
-<pad name="48V_GND4" x="28.785" y="3.93" drill="1" rot="R90"/>
+<pad name="48V_GND3" x="36.405" y="3.93" drill="1" rot="R90"/>
+<pad name="48V_GND4" x="38.945" y="3.93" drill="1" rot="R90"/>
 <pad name="P$4" x="18.625" y="6.47" drill="1" rot="R90"/>
 <pad name="D_GND" x="21.165" y="6.47" drill="1" rot="R90"/>
 <pad name="P$18" x="23.705" y="6.47" drill="1" rot="R90"/>
-<pad name="48V_GND1" x="26.245" y="6.47" drill="1" rot="R90"/>
-<pad name="48V_GND2" x="28.785" y="6.47" drill="1" rot="R90"/>
+<pad name="48V_GND1" x="36.405" y="6.47" drill="1" rot="R90"/>
+<pad name="48V_GND2" x="38.945" y="6.47" drill="1" rot="R90"/>
 <pad name="P$31" x="31.325" y="3.93" drill="1" rot="R90"/>
 <pad name="2" x="33.865" y="3.93" drill="1" rot="R90"/>
-<pad name="+48V3" x="36.405" y="3.93" drill="1" rot="R90"/>
-<pad name="+48V4" x="38.945" y="3.93" drill="1" rot="R90"/>
+<pad name="+48V3" x="26.245" y="3.93" drill="1" rot="R90"/>
+<pad name="+48V4" x="28.785" y="3.93" drill="1" rot="R90"/>
 <pad name="P$35" x="41.485" y="3.93" drill="1" rot="R90"/>
 <pad name="P$36" x="31.325" y="6.47" drill="1" rot="R90"/>
 <pad name="1" x="33.865" y="6.47" drill="1" rot="R90"/>
-<pad name="+48V1" x="36.405" y="6.47" drill="1" rot="R90"/>
-<pad name="+48V2" x="38.945" y="6.47" drill="1" rot="R90"/>
+<pad name="+48V1" x="26.245" y="6.47" drill="1" rot="R90"/>
+<pad name="+48V2" x="28.785" y="6.47" drill="1" rot="R90"/>
 <pad name="P$40" x="41.485" y="6.47" drill="1" rot="R90"/>
 <wire x1="16.72" y1="38.32" x2="43.39" y2="38.32" width="0.127" layer="21"/>
 <wire x1="43.39" y1="38.32" x2="43.39" y2="33.24" width="0.127" layer="21"/>
@@ -5435,6 +5435,73 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BANANA_CONN">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BANANA_CONN">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BANANA_CONN" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5462,8 +5529,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1M">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND2" device=""/>
-<part name="+48V" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="VCC" device="" value="48V"/>
 <part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
 <part name="U$2" library="board_outlines" deviceset="BOARD" device="PDB"/>
 <part name="U$3" library="DIODE" deviceset="DIODE" device=""/>
@@ -5472,10 +5537,13 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value=""/>
 <part name="U$5" library="PDB_TO_BRICKS" deviceset="BRICK_TO_POWER_DIST_WHOLE" device=""/>
 <part name="U$6" library="PDB_TO_BRICKS" deviceset="BRICK_TO_POWER_DIST_WHOLE" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="30.48" y="106.68" size="2.54" layer="91">48 VOLT CONNECTOR</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="55.88" y="198.12">
@@ -5521,12 +5589,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <attribute name="NAME" x="145.796" y="195.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="148.844" y="195.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND2" gate="G$1" x="147.32" y="182.88">
-<attribute name="VALUE" x="147.32" y="181.102" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="+48V" gate="VCC" x="142.24" y="223.52">
-<attribute name="VALUE" x="140.716" y="224.536" size="1.27" layer="96"/>
-</instance>
 <instance part="Q1" gate="G$1" x="144.78" y="213.36">
 <attribute name="VALUE" x="133.35" y="209.55" size="1.778" layer="96"/>
 <attribute name="NAME" x="133.35" y="212.09" size="1.778" layer="95"/>
@@ -5538,6 +5600,8 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <instance part="SUPPLY2" gate="G$1" x="327.66" y="236.22"/>
 <instance part="U$5" gate="G$1" x="297.18" y="147.32"/>
 <instance part="U$6" gate="G$1" x="297.18" y="119.38"/>
+<instance part="J1" gate="G$1" x="50.8" y="96.52"/>
+<instance part="J2" gate="G$1" x="50.8" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -5613,11 +5677,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <wire x1="73.66" y1="182.88" x2="73.66" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="180.34" x2="58.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="GND2" gate="G$1" pin="3.3V"/>
-<wire x1="147.32" y1="185.42" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -5650,13 +5709,6 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <pinref part="U$6" gate="G$1" pin="+48V"/>
 <wire x1="325.12" y1="137.16" x2="337.82" y2="137.16" width="0.1524" layer="91"/>
 <label x="335" y="138" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<pinref part="+48V" gate="VCC" pin="VCC"/>
-<wire x1="142.24" y1="215.9" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V_1" class="0">
@@ -5709,28 +5761,56 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <label x="276" y="130" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="48V_GND"/>
-<wire x1="325.12" y1="157.48" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="D_GND"/>
 <wire x1="325.12" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="+48V_GND" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="48V_GND"/>
 <wire x1="325.12" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
+<label x="335.28" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="D_GND"/>
 <wire x1="325.12" y1="121.92" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="48V_GND" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="147.32" y1="185.42" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="185.42" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
+<label x="149.86" y="180.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="48V_GND"/>
+<wire x1="325.12" y1="157.48" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
+<label x="335.28" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+48V_RAW" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="38.1" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="142.24" y1="215.9" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="220.98" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="223.52" x2="132.08" y2="223.52" width="0.1524" layer="91"/>
+<label x="132.08" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
