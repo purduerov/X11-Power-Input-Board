@@ -5341,6 +5341,100 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 </deviceset>
 </devicesets>
 </library>
+<library name="PDB_TO_BRICKS">
+<packages>
+<package name="BRICK_TO_POWER_DIST_WHOLE">
+<pad name="GND6" x="17.99" y="34.51" drill="1" rot="R90"/>
+<pad name="GND7" x="20.53" y="34.51" drill="1" rot="R90"/>
+<pad name="GND8" x="23.07" y="34.51" drill="1" rot="R90"/>
+<pad name="GND9" x="25.61" y="34.51" drill="1" rot="R90"/>
+<pad name="GND10" x="28.15" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V6" x="31.96" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V7" x="34.5" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V8" x="37.04" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V9" x="39.58" y="34.51" drill="1" rot="R90"/>
+<pad name="+12V10" x="42.12" y="34.51" drill="1" rot="R90"/>
+<pad name="GND1" x="17.99" y="37.05" drill="1" rot="R90"/>
+<pad name="GND2" x="20.53" y="37.05" drill="1" rot="R90"/>
+<pad name="GND3" x="23.07" y="37.05" drill="1" rot="R90"/>
+<pad name="GND4" x="25.61" y="37.05" drill="1" rot="R90"/>
+<pad name="GND5" x="28.15" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V1" x="31.96" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V2" x="34.5" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V3" x="37.04" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V4" x="39.58" y="37.05" drill="1" rot="R90"/>
+<pad name="+12V5" x="42.12" y="37.05" drill="1" rot="R90"/>
+<pad name="P$5" x="18.625" y="3.93" drill="1" rot="R90"/>
+<pad name="ON/OFF" x="21.165" y="3.93" drill="1" rot="R90"/>
+<pad name="P$3" x="23.705" y="3.93" drill="1" rot="R90"/>
+<pad name="48V_GND3" x="26.245" y="3.93" drill="1" rot="R90"/>
+<pad name="48V_GND4" x="28.785" y="3.93" drill="1" rot="R90"/>
+<pad name="P$4" x="18.625" y="6.47" drill="1" rot="R90"/>
+<pad name="D_GND" x="21.165" y="6.47" drill="1" rot="R90"/>
+<pad name="P$18" x="23.705" y="6.47" drill="1" rot="R90"/>
+<pad name="48V_GND1" x="26.245" y="6.47" drill="1" rot="R90"/>
+<pad name="48V_GND2" x="28.785" y="6.47" drill="1" rot="R90"/>
+<pad name="P$31" x="31.325" y="3.93" drill="1" rot="R90"/>
+<pad name="2" x="33.865" y="3.93" drill="1" rot="R90"/>
+<pad name="+48V3" x="36.405" y="3.93" drill="1" rot="R90"/>
+<pad name="+48V4" x="38.945" y="3.93" drill="1" rot="R90"/>
+<pad name="P$35" x="41.485" y="3.93" drill="1" rot="R90"/>
+<pad name="P$36" x="31.325" y="6.47" drill="1" rot="R90"/>
+<pad name="1" x="33.865" y="6.47" drill="1" rot="R90"/>
+<pad name="+48V1" x="36.405" y="6.47" drill="1" rot="R90"/>
+<pad name="+48V2" x="38.945" y="6.47" drill="1" rot="R90"/>
+<pad name="P$40" x="41.485" y="6.47" drill="1" rot="R90"/>
+<wire x1="16.72" y1="38.32" x2="43.39" y2="38.32" width="0.127" layer="21"/>
+<wire x1="43.39" y1="38.32" x2="43.39" y2="33.24" width="0.127" layer="21"/>
+<wire x1="43.39" y1="33.24" x2="16.72" y2="33.24" width="0.127" layer="21"/>
+<wire x1="16.72" y1="33.24" x2="16.72" y2="38.32" width="0.127" layer="21"/>
+<wire x1="16.72" y1="2.66" x2="16.72" y2="7.74" width="0.127" layer="21"/>
+<wire x1="16.72" y1="7.74" x2="43.39" y2="7.74" width="0.127" layer="21"/>
+<wire x1="43.39" y1="7.74" x2="43.39" y2="2.66" width="0.127" layer="21"/>
+<wire x1="43.39" y1="2.66" x2="16.72" y2="2.66" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="39.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="59.4" y2="0" width="0.127" layer="21"/>
+<wire x1="59.4" y1="0" x2="59.4" y2="39.8" width="0.127" layer="21"/>
+<wire x1="59.4" y1="39.8" x2="0" y2="39.8" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BRICK_TO_POWER_DIST_WHOLE">
+<wire x1="0" y1="20.32" x2="22.86" y2="20.32" width="0.254" layer="94"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
+<pin name="+12V" x="-5.08" y="17.78" length="middle"/>
+<pin name="GND" x="-5.08" y="10.16" length="middle"/>
+<pin name="+48V" x="27.94" y="17.78" length="middle" rot="R180"/>
+<pin name="48V_GND" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="D_GND" x="27.94" y="2.54" length="middle" rot="R180"/>
+<pin name="ON/OFF" x="-5.08" y="2.54" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BRICK_TO_POWER_DIST_WHOLE">
+<gates>
+<gate name="G$1" symbol="BRICK_TO_POWER_DIST_WHOLE" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="BRICK_TO_POWER_DIST_WHOLE">
+<connects>
+<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10"/>
+<connect gate="G$1" pin="+48V" pad="+48V1 +48V2 +48V3 +48V4"/>
+<connect gate="G$1" pin="48V_GND" pad="48V_GND1 48V_GND2 48V_GND3 48V_GND4"/>
+<connect gate="G$1" pin="D_GND" pad="D_GND"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10"/>
+<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5376,6 +5470,8 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <part name="U$4" library="DIODE" deviceset="DIODE" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value=""/>
+<part name="U$5" library="PDB_TO_BRICKS" deviceset="BRICK_TO_POWER_DIST_WHOLE" device=""/>
+<part name="U$6" library="PDB_TO_BRICKS" deviceset="BRICK_TO_POWER_DIST_WHOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5440,6 +5536,8 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <instance part="U$4" gate="G$1" x="327.66" y="213.36"/>
 <instance part="SUPPLY1" gate="G$1" x="284.48" y="236.22"/>
 <instance part="SUPPLY2" gate="G$1" x="327.66" y="236.22"/>
+<instance part="U$5" gate="G$1" x="297.18" y="147.32"/>
+<instance part="U$6" gate="G$1" x="297.18" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -5474,7 +5572,17 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <junction x="58.42" y="208.28"/>
 <wire x1="73.66" y1="208.28" x2="78.74" y2="208.28" width="0.1524" layer="91"/>
 <junction x="73.66" y="208.28"/>
-<label x="78.74" y="210.82" size="1.778" layer="95"/>
+<label x="75.74" y="208.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="ON/OFF"/>
+<wire x1="292.1" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<label x="276" y="150" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="ON/OFF"/>
+<wire x1="292.1" y1="121.92" x2="279.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="276" y="122" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5533,6 +5641,16 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <wire x1="147.32" y1="218.44" x2="165.1" y2="218.44" width="0.1524" layer="91"/>
 <junction x="165.1" y="218.44"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="+48V"/>
+<wire x1="325.12" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
+<label x="335" y="166" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="+48V"/>
+<wire x1="325.12" y1="137.16" x2="337.82" y2="137.16" width="0.1524" layer="91"/>
+<label x="335" y="138" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -5547,12 +5665,22 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <wire x1="284.48" y1="200.66" x2="284.48" y2="185.42" width="0.1524" layer="91"/>
 <label x="283.5" y="185.48" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="+12V"/>
+<wire x1="292.1" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
+<label x="276.32" y="166.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+12V_2" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="IN2"/>
 <wire x1="327.66" y1="200.66" x2="327.66" y2="185.42" width="0.1524" layer="91"/>
 <label x="327" y="186" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="+12V"/>
+<wire x1="292.1" y1="137.16" x2="279.4" y2="137.16" width="0.1524" layer="91"/>
+<label x="276" y="138" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5567,6 +5695,42 @@ Source: http://www.infineon.com/upload/Document/cmc_upload/documents/011/3685/SP
 <wire x1="327.66" y1="223.52" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <label x="327" y="228" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="292.1" y1="157.48" x2="279.4" y2="157.48" width="0.1524" layer="91"/>
+<label x="278" y="158" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="GND"/>
+<wire x1="292.1" y1="129.54" x2="279.4" y2="129.54" width="0.1524" layer="91"/>
+<label x="276" y="130" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="48V_GND"/>
+<wire x1="325.12" y1="157.48" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="D_GND"/>
+<wire x1="325.12" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="48V_GND"/>
+<wire x1="325.12" y1="129.54" x2="337.82" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="D_GND"/>
+<wire x1="325.12" y1="121.92" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
