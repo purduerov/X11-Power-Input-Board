@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5502,6 +5502,88 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="PDB_PCB_connectors">
+<packages>
+<package name="PDB_PCB">
+<pad name="+12V1" x="-0.889" y="-33.939" drill="1"/>
+<pad name="+12V2" x="1.651" y="-33.939" drill="1"/>
+<pad name="+12V3" x="-0.889" y="-31.399" drill="1"/>
+<pad name="+12V4" x="1.651" y="-31.399" drill="1"/>
+<pad name="+12V5" x="-0.889" y="-28.859" drill="1"/>
+<pad name="+12V6" x="1.651" y="-28.859" drill="1"/>
+<pad name="+12V7" x="-0.889" y="-26.319" drill="1"/>
+<pad name="+12V8" x="1.651" y="-26.319" drill="1"/>
+<pad name="+12V9" x="-0.889" y="-23.779" drill="1"/>
+<pad name="+12V10" x="1.651" y="-23.779" drill="1"/>
+<pad name="+12V11" x="-0.889" y="-21.239" drill="1"/>
+<pad name="+12V12" x="1.651" y="-21.239" drill="1"/>
+<pad name="+12V13" x="-0.889" y="-18.699" drill="1"/>
+<pad name="+12V14" x="1.651" y="-18.699" drill="1"/>
+<pad name="+12V15" x="-0.889" y="-16.159" drill="1"/>
+<pad name="+12V16" x="1.651" y="-16.159" drill="1"/>
+<pad name="+12V17" x="-0.889" y="-13.619" drill="1"/>
+<pad name="+12V18" x="1.651" y="-13.619" drill="1"/>
+<pad name="+12V19" x="-0.889" y="-11.079" drill="1"/>
+<pad name="+12V20" x="1.651" y="-11.079" drill="1"/>
+<pad name="+12V21" x="-0.889" y="-8.539" drill="1"/>
+<pad name="+12V22" x="1.651" y="-8.539" drill="1"/>
+<pad name="+12V23" x="-0.889" y="-5.999" drill="1"/>
+<pad name="+12V24" x="1.651" y="-5.999" drill="1"/>
+<pad name="GND1" x="-0.889" y="-3.459" drill="1"/>
+<pad name="GND2" x="1.651" y="-3.459" drill="1"/>
+<pad name="GND3" x="-0.889" y="-0.919" drill="1"/>
+<pad name="GND4" x="1.651" y="-0.919" drill="1"/>
+<pad name="GND5" x="-0.889" y="1.621" drill="1"/>
+<pad name="GND6" x="1.651" y="1.621" drill="1"/>
+<pad name="GND7" x="-0.889" y="4.161" drill="1"/>
+<pad name="GND8" x="1.651" y="4.161" drill="1"/>
+<pad name="GND9" x="-0.889" y="6.701" drill="1"/>
+<pad name="GND10" x="1.651" y="6.701" drill="1"/>
+<pad name="GND11" x="-0.889" y="9.241" drill="1"/>
+<pad name="GND12" x="1.651" y="9.241" drill="1"/>
+<pad name="GND13" x="-0.889" y="11.781" drill="1"/>
+<pad name="GND14" x="1.651" y="11.781" drill="1"/>
+<pad name="GND15" x="-0.889" y="14.321" drill="1"/>
+<pad name="GND16" x="1.651" y="14.321" drill="1"/>
+<pad name="GND17" x="-0.889" y="16.861" drill="1"/>
+<pad name="GND18" x="1.651" y="16.861" drill="1"/>
+<pad name="GND19" x="-0.889" y="19.401" drill="1"/>
+<pad name="GND20" x="1.651" y="19.401" drill="1"/>
+<pad name="GND21" x="-0.889" y="21.941" drill="1"/>
+<pad name="GND22" x="1.651" y="21.941" drill="1"/>
+<pad name="GND23" x="-0.889" y="24.481" drill="1"/>
+<pad name="GND24" x="1.651" y="24.481" drill="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PDB_PCB">
+<wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="+12V" x="-5.08" y="15.24" length="middle"/>
+<pin name="GND" x="-5.08" y="5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PDB_PCB_CONNEC">
+<gates>
+<gate name="G$1" symbol="PDB_PCB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PDB_PCB">
+<connects>
+<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10 +12V11 +12V12 +12V13 +12V14 +12V15 +12V16 +12V17 +12V18 +12V19 +12V20 +12V21 +12V22 +12V23 +12V24"/>
+<connect gate="G$1" pin="GND" pad="GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19 GND20 GND21 GND22 GND23 GND24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5539,6 +5621,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$6" library="PDB_TO_BRICKS" deviceset="BRICK_TO_POWER_DIST_WHOLE" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
+<part name="U$7" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
+<part name="U$8" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
+<part name="U$9" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5594,14 +5679,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="133.35" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U$2" gate="G$1" x="215.9" y="241.3"/>
-<instance part="U$3" gate="G$1" x="284.48" y="213.36"/>
-<instance part="U$4" gate="G$1" x="327.66" y="213.36"/>
-<instance part="SUPPLY1" gate="G$1" x="284.48" y="236.22"/>
-<instance part="SUPPLY2" gate="G$1" x="327.66" y="236.22"/>
+<instance part="U$3" gate="G$1" x="284.48" y="213.36">
+<attribute name="NAME" x="284.48" y="218.44" size="1.778" layer="95"/>
+</instance>
+<instance part="U$4" gate="G$1" x="327.66" y="213.36">
+<attribute name="NAME" x="327.66" y="218.44" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="284.48" y="236.22">
+<attribute name="VALUE" x="284.48" y="239.014" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="327.66" y="236.22">
+<attribute name="VALUE" x="327.66" y="239.014" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 <instance part="U$5" gate="G$1" x="297.18" y="147.32"/>
 <instance part="U$6" gate="G$1" x="297.18" y="119.38"/>
-<instance part="J1" gate="G$1" x="50.8" y="96.52"/>
-<instance part="J2" gate="G$1" x="50.8" y="91.44"/>
+<instance part="J1" gate="G$1" x="50.8" y="96.52">
+<attribute name="NAME" x="49.784" y="98.298" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="49.784" y="93.472" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J2" gate="G$1" x="50.8" y="91.44">
+<attribute name="NAME" x="49.784" y="93.218" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="49.784" y="88.392" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="U$7" gate="G$1" x="124.46" y="106.68"/>
+<instance part="U$8" gate="G$1" x="124.46" y="83.82"/>
+<instance part="U$9" gate="G$1" x="124.46" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -5748,6 +5850,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <label x="327" y="228" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="+12V"/>
+<wire x1="119.38" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="104.14" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="+12V"/>
+<wire x1="119.38" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="104.14" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="+12V"/>
+<wire x1="119.38" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<label x="104.14" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -5759,6 +5876,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$6" gate="G$1" pin="GND"/>
 <wire x1="292.1" y1="129.54" x2="279.4" y2="129.54" width="0.1524" layer="91"/>
 <label x="276" y="130" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="104.14" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<label x="104.14" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="104.14" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
