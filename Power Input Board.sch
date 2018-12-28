@@ -5504,55 +5504,151 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="PDB_PCB_connectors">
 <packages>
-<package name="PDB_PCB">
-<pad name="+12V1" x="-0.889" y="-33.939" drill="1"/>
-<pad name="+12V2" x="1.651" y="-33.939" drill="1"/>
-<pad name="+12V3" x="-0.889" y="-31.399" drill="1"/>
-<pad name="+12V4" x="1.651" y="-31.399" drill="1"/>
-<pad name="+12V5" x="-0.889" y="-28.859" drill="1"/>
-<pad name="+12V6" x="1.651" y="-28.859" drill="1"/>
-<pad name="+12V7" x="-0.889" y="-26.319" drill="1"/>
-<pad name="+12V8" x="1.651" y="-26.319" drill="1"/>
-<pad name="+12V9" x="-0.889" y="-23.779" drill="1"/>
-<pad name="+12V10" x="1.651" y="-23.779" drill="1"/>
-<pad name="+12V11" x="-0.889" y="-21.239" drill="1"/>
-<pad name="+12V12" x="1.651" y="-21.239" drill="1"/>
-<pad name="+12V13" x="-0.889" y="-18.699" drill="1"/>
-<pad name="+12V14" x="1.651" y="-18.699" drill="1"/>
-<pad name="+12V15" x="-0.889" y="-16.159" drill="1"/>
-<pad name="+12V16" x="1.651" y="-16.159" drill="1"/>
-<pad name="+12V17" x="-0.889" y="-13.619" drill="1"/>
-<pad name="+12V18" x="1.651" y="-13.619" drill="1"/>
-<pad name="+12V19" x="-0.889" y="-11.079" drill="1"/>
-<pad name="+12V20" x="1.651" y="-11.079" drill="1"/>
-<pad name="+12V21" x="-0.889" y="-8.539" drill="1"/>
-<pad name="+12V22" x="1.651" y="-8.539" drill="1"/>
-<pad name="+12V23" x="-0.889" y="-5.999" drill="1"/>
-<pad name="+12V24" x="1.651" y="-5.999" drill="1"/>
-<pad name="GND1" x="-0.889" y="-3.459" drill="1"/>
-<pad name="GND2" x="1.651" y="-3.459" drill="1"/>
-<pad name="GND3" x="-0.889" y="-0.919" drill="1"/>
-<pad name="GND4" x="1.651" y="-0.919" drill="1"/>
-<pad name="GND5" x="-0.889" y="1.621" drill="1"/>
-<pad name="GND6" x="1.651" y="1.621" drill="1"/>
-<pad name="GND7" x="-0.889" y="4.161" drill="1"/>
-<pad name="GND8" x="1.651" y="4.161" drill="1"/>
-<pad name="GND9" x="-0.889" y="6.701" drill="1"/>
-<pad name="GND10" x="1.651" y="6.701" drill="1"/>
-<pad name="GND11" x="-0.889" y="9.241" drill="1"/>
-<pad name="GND12" x="1.651" y="9.241" drill="1"/>
-<pad name="GND13" x="-0.889" y="11.781" drill="1"/>
-<pad name="GND14" x="1.651" y="11.781" drill="1"/>
-<pad name="GND15" x="-0.889" y="14.321" drill="1"/>
-<pad name="GND16" x="1.651" y="14.321" drill="1"/>
-<pad name="GND17" x="-0.889" y="16.861" drill="1"/>
-<pad name="GND18" x="1.651" y="16.861" drill="1"/>
-<pad name="GND19" x="-0.889" y="19.401" drill="1"/>
-<pad name="GND20" x="1.651" y="19.401" drill="1"/>
-<pad name="GND21" x="-0.889" y="21.941" drill="1"/>
-<pad name="GND22" x="1.651" y="21.941" drill="1"/>
-<pad name="GND23" x="-0.889" y="24.481" drill="1"/>
-<pad name="GND24" x="1.651" y="24.481" drill="1"/>
+<package name="PDB_PCB_2">
+<pad name="+12V1" x="38.450003125" y="16.569265625" drill="1" rot="R30"/>
+<pad name="+12V2" x="40.64970625" y="17.839265625" drill="1" rot="R30"/>
+<pad name="+12V3" x="37.180003125" y="18.76896875" drill="1" rot="R30"/>
+<pad name="+12V4" x="39.37970625" y="20.03896875" drill="1" rot="R30"/>
+<pad name="+12V5" x="35.910003125" y="20.968675" drill="1" rot="R30"/>
+<pad name="+12V6" x="38.10970625" y="22.238675" drill="1" rot="R30"/>
+<pad name="+12V7" x="34.640003125" y="23.168378125" drill="1" rot="R30"/>
+<pad name="+12V8" x="36.83970625" y="24.438378125" drill="1" rot="R30"/>
+<pad name="+12V9" x="33.370003125" y="25.368084375" drill="1" rot="R30"/>
+<pad name="+12V10" x="35.56970625" y="26.638084375" drill="1" rot="R30"/>
+<pad name="+12V11" x="32.100003125" y="27.5677875" drill="1" rot="R30"/>
+<pad name="+12V12" x="34.29970625" y="28.8377875" drill="1" rot="R30"/>
+<pad name="+12V13" x="30.830003125" y="29.76749375" drill="1" rot="R30"/>
+<pad name="+12V14" x="33.02970625" y="31.03749375" drill="1" rot="R30"/>
+<pad name="+12V15" x="29.560003125" y="31.967196875" drill="1" rot="R30"/>
+<pad name="+12V16" x="31.75970625" y="33.237196875" drill="1" rot="R30"/>
+<pad name="+12V17" x="28.290003125" y="34.166903125" drill="1" rot="R30"/>
+<pad name="+12V18" x="30.48970625" y="35.436903125" drill="1" rot="R30"/>
+<pad name="+12V19" x="27.020003125" y="36.36660625" drill="1" rot="R30"/>
+<pad name="+12V20" x="29.21970625" y="37.63660625" drill="1" rot="R30"/>
+<pad name="+12V21" x="25.750003125" y="38.566309375" drill="1" rot="R30"/>
+<pad name="+12V22" x="27.94970625" y="39.836309375" drill="1" rot="R30"/>
+<pad name="+12V23" x="24.480003125" y="40.766015625" drill="1" rot="R30"/>
+<pad name="+12V24" x="26.67970625" y="42.036015625" drill="1" rot="R30"/>
+<pad name="GND1" x="23.210003125" y="42.96571875" drill="1" rot="R30"/>
+<pad name="GND2" x="25.40970625" y="44.23571875" drill="1" rot="R30"/>
+<pad name="GND3" x="21.94000625" y="45.165425" drill="1" rot="R30"/>
+<pad name="GND4" x="24.13970625" y="46.435421875" drill="1" rot="R30"/>
+<pad name="GND5" x="20.67000625" y="47.365125" drill="1" rot="R30"/>
+<pad name="GND6" x="22.86970625" y="48.635125" drill="1" rot="R30"/>
+<pad name="GND7" x="19.40000625" y="49.56483125" drill="1" rot="R30"/>
+<pad name="GND8" x="21.599709375" y="50.83483125" drill="1" rot="R30"/>
+<pad name="GND9" x="18.13000625" y="51.764534375" drill="1" rot="R30"/>
+<pad name="GND10" x="20.329709375" y="53.034534375" drill="1" rot="R30"/>
+<pad name="GND11" x="16.86000625" y="53.964240625" drill="1" rot="R30"/>
+<pad name="GND12" x="19.059709375" y="55.234240625" drill="1" rot="R30"/>
+<pad name="GND13" x="15.59000625" y="56.16394375" drill="1" rot="R30"/>
+<pad name="GND14" x="17.789709375" y="57.43394375" drill="1" rot="R30"/>
+<pad name="GND15" x="14.32000625" y="58.363646875" drill="1" rot="R30"/>
+<pad name="GND16" x="16.519709375" y="59.633646875" drill="1" rot="R30"/>
+<pad name="GND17" x="13.05000625" y="60.563353125" drill="1" rot="R30"/>
+<pad name="GND18" x="15.249709375" y="61.833353125" drill="1" rot="R30"/>
+<pad name="GND19" x="11.78000625" y="62.76305625" drill="1" rot="R30"/>
+<pad name="GND20" x="13.979709375" y="64.03305625" drill="1" rot="R30"/>
+<pad name="GND21" x="10.51000625" y="64.9627625" drill="1" rot="R30"/>
+<pad name="GND22" x="12.709709375" y="66.2327625" drill="1" rot="R30"/>
+<pad name="GND23" x="9.24000625" y="67.162465625" drill="1" rot="R30"/>
+<pad name="GND24" x="11.439709375" y="68.432465625" drill="1" rot="R30"/>
+<pad name="+12V25" x="97.54" y="18.01644375" drill="1" rot="R150"/>
+<pad name="+12V26" x="95.340296875" y="19.286446875" drill="1" rot="R150"/>
+<pad name="+12V27" x="98.81" y="20.21615" drill="1" rot="R150"/>
+<pad name="+12V28" x="96.610296875" y="21.48615" drill="1" rot="R150"/>
+<pad name="+12V29" x="100.08" y="22.415853125" drill="1" rot="R150"/>
+<pad name="+12V30" x="97.880296875" y="23.68585625" drill="1" rot="R150"/>
+<pad name="+12V31" x="101.349996875" y="24.615559375" drill="1" rot="R150"/>
+<pad name="+12V32" x="99.150296875" y="25.885559375" drill="1" rot="R150"/>
+<pad name="+12V33" x="102.62" y="26.8152625" drill="1" rot="R150"/>
+<pad name="+12V34" x="100.420296875" y="28.085265625" drill="1" rot="R150"/>
+<pad name="+12V35" x="103.889996875" y="29.01496875" drill="1" rot="R150"/>
+<pad name="+12V36" x="101.690296875" y="30.28496875" drill="1" rot="R150"/>
+<pad name="+12V37" x="105.159996875" y="31.214675" drill="1" rot="R150"/>
+<pad name="+12V38" x="102.960296875" y="32.484675" drill="1" rot="R150"/>
+<pad name="+12V39" x="106.429996875" y="33.414378125" drill="1" rot="R150"/>
+<pad name="+12V40" x="104.230296875" y="34.684378125" drill="1" rot="R150"/>
+<pad name="+12V41" x="107.699996875" y="35.614084375" drill="1" rot="R150"/>
+<pad name="+12V42" x="105.500296875" y="36.884084375" drill="1" rot="R150"/>
+<pad name="+12V43" x="108.97" y="37.8137875" drill="1" rot="R150"/>
+<pad name="+12V44" x="106.770296875" y="39.0837875" drill="1" rot="R150"/>
+<pad name="+12V45" x="110.24" y="40.013490625" drill="1" rot="R150"/>
+<pad name="+12V46" x="108.040296875" y="41.283490625" drill="1" rot="R150"/>
+<pad name="+12V47" x="111.51" y="42.21319375" drill="1" rot="R150"/>
+<pad name="+12V48" x="109.310296875" y="43.483196875" drill="1" rot="R150"/>
+<pad name="GND25" x="112.78" y="44.4129" drill="1" rot="R150"/>
+<pad name="GND26" x="110.580296875" y="45.6829" drill="1" rot="R150"/>
+<pad name="GND27" x="114.04999375" y="46.61260625" drill="1" rot="R150"/>
+<pad name="GND28" x="111.85029375" y="47.882603125" drill="1" rot="R150"/>
+<pad name="GND29" x="115.31999375" y="48.81230625" drill="1" rot="R150"/>
+<pad name="GND30" x="113.120296875" y="50.082303125" drill="1" rot="R150"/>
+<pad name="GND31" x="116.589996875" y="51.0120125" drill="1" rot="R150"/>
+<pad name="GND32" x="114.39029375" y="52.282009375" drill="1" rot="R150"/>
+<pad name="GND33" x="117.859996875" y="53.211715625" drill="1" rot="R150"/>
+<pad name="GND34" x="115.660290625" y="54.481715625" drill="1" rot="R150"/>
+<pad name="GND35" x="119.129996875" y="55.411421875" drill="1" rot="R150"/>
+<pad name="GND36" x="116.930290625" y="56.681421875" drill="1" rot="R150"/>
+<pad name="GND37" x="120.399996875" y="57.611125" drill="1" rot="R150"/>
+<pad name="GND38" x="118.200290625" y="58.881125" drill="1" rot="R150"/>
+<pad name="GND39" x="121.66999375" y="59.810828125" drill="1" rot="R150"/>
+<pad name="GND40" x="119.47029375" y="61.080828125" drill="1" rot="R150"/>
+<pad name="GND41" x="122.939996875" y="62.010534375" drill="1" rot="R150"/>
+<pad name="GND42" x="120.74029375" y="63.280534375" drill="1" rot="R150"/>
+<pad name="GND43" x="124.20999375" y="64.2102375" drill="1" rot="R150"/>
+<pad name="GND44" x="122.01029375" y="65.4802375" drill="1" rot="R150"/>
+<pad name="GND45" x="125.479996875" y="66.40994375" drill="1" rot="R150"/>
+<pad name="GND46" x="123.28029375" y="67.67994375" drill="1" rot="R150"/>
+<pad name="GND47" x="126.74999375" y="68.609646875" drill="1" rot="R150"/>
+<pad name="GND48" x="124.55029375" y="69.879646875" drill="1" rot="R150"/>
+<pad name="+12V49" x="95.9860375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V50" x="95.9860375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V51" x="93.446040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V52" x="93.446040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V53" x="90.9060375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V54" x="90.9060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V55" x="88.366040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V56" x="88.3660375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V57" x="85.8260375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V58" x="85.8260375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V59" x="83.286040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V60" x="83.2860375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V61" x="80.7460375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V62" x="80.7460375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V63" x="78.206040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V64" x="78.2060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V65" x="75.6660375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V66" x="75.6660375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V67" x="73.1260375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V68" x="73.1260375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V69" x="70.586040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V70" x="70.586040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V71" x="68.0460375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V72" x="68.0460375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND49" x="65.506040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="GND50" x="65.5060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND51" x="62.966040625" y="114.130165625" drill="1" rot="R90"/>
+<pad name="GND52" x="62.966040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND53" x="60.42604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND54" x="60.426040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND55" x="57.88604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND56" x="57.886040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND57" x="55.34604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND58" x="55.34604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND59" x="52.806040625" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND60" x="52.806040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND61" x="50.26604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND62" x="50.26604375" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND63" x="47.72604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND64" x="47.72604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND65" x="45.18604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND66" x="45.18604375" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND67" x="42.64604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND68" x="42.64604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND69" x="40.10604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND70" x="40.106040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND71" x="37.56604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND72" x="37.56604375" y="116.670159375" drill="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -5571,10 +5667,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="PDB_PCB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PDB_PCB">
+<device name="" package="PDB_PCB_2">
 <connects>
-<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10 +12V11 +12V12 +12V13 +12V14 +12V15 +12V16 +12V17 +12V18 +12V19 +12V20 +12V21 +12V22 +12V23 +12V24"/>
-<connect gate="G$1" pin="GND" pad="GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19 GND20 GND21 GND22 GND23 GND24"/>
+<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10 +12V11 +12V12 +12V13 +12V14 +12V15 +12V16 +12V17 +12V18 +12V19 +12V20 +12V21 +12V22 +12V23 +12V24 +12V25 +12V26 +12V27 +12V28 +12V29 +12V30 +12V31 +12V32 +12V33 +12V34 +12V35 +12V36 +12V37 +12V38 +12V39 +12V40 +12V41 +12V42 +12V43 +12V44 +12V45 +12V46 +12V47 +12V48 +12V49 +12V50 +12V51 +12V52 +12V53 +12V54 +12V55 +12V56 +12V57 +12V58 +12V59 +12V60 +12V61 +12V62 +12V63 +12V64 +12V65 +12V66 +12V67 +12V68 +12V69 +12V70 +12V71 +12V72"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19 GND20 GND21 GND22 GND23 GND24 GND25 GND26 GND27 GND28 GND29 GND30 GND31 GND32 GND33 GND34 GND35 GND36 GND37 GND38 GND39 GND40 GND41 GND42 GND43 GND44 GND45 GND46 GND47 GND48 GND49 GND50 GND51 GND52 GND53 GND54 GND55 GND56 GND57 GND58 GND59 GND60 GND61 GND62 GND63 GND64 GND65 GND66 GND67 GND68 GND69 GND70 GND71 GND72"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5622,8 +5718,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="U$7" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
-<part name="U$8" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
-<part name="U$9" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5707,9 +5801,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="49.784" y="93.218" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="49.784" y="88.392" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$7" gate="G$1" x="99.06" y="86.36"/>
-<instance part="U$8" gate="G$1" x="99.06" y="63.5"/>
-<instance part="U$9" gate="G$1" x="99.06" y="40.64"/>
+<instance part="U$7" gate="G$1" x="93.98" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -5858,18 +5950,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="+12V"/>
-<wire x1="93.98" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="78.74" y="101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="+12V"/>
-<wire x1="93.98" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="78.74" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$9" gate="G$1" pin="+12V"/>
-<wire x1="93.98" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
-<label x="78.74" y="55.88" size="1.778" layer="95"/>
+<wire x1="88.9" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+<label x="73.66" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5885,18 +5967,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<label x="78.74" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="78.74" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$9" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
-<label x="78.74" y="45.72" size="1.778" layer="95"/>
+<wire x1="88.9" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<label x="73.66" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
