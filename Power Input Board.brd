@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -171,6 +171,12 @@
 </layers>
 <board>
 <plain>
+<text x="87.5284" y="12.6238" size="1.778" layer="21">+48V</text>
+<text x="82.0166" y="11.2014" size="1.778" layer="21" rot="R90">48V_GND</text>
+<text x="73.4314" y="101.981" size="1.778" layer="21">Power Distribution Board v1.0
+Jan 2019
+Cynthia Zatlokowicz
+Jason King</text>
 </plain>
 <libraries>
 <library name="diode" urn="urn:adsk.eagle:library:210">
@@ -930,21 +936,22 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="ON/OFF"/>
 <wire x1="57.5818" y1="26.2262" x2="57.5818" y2="28.449" width="0.8128" layer="1"/>
 <wire x1="57.5818" y1="28.449" x2="52.1416" y2="33.8892" width="0.8128" layer="1"/>
-<wire x1="52.1416" y1="33.8892" x2="49.149" y2="36.8818" width="0.8128" layer="1"/>
 <via x="30.2514" y="54.0512" extent="1-16" drill="0.35"/>
-<wire x1="49.149" y1="36.8818" x2="31.9796" y2="54.0512" width="0.8128" layer="1"/>
-<wire x1="31.9796" y1="54.0512" x2="30.2514" y2="54.0512" width="0.8128" layer="1"/>
 <wire x1="30.2514" y1="54.0512" x2="30.2514" y2="75.1836" width="0.8128" layer="16"/>
 <wire x1="30.2514" y1="75.1836" x2="32.1586" y2="77.0908" width="0.8128" layer="16"/>
-<via x="49.1744" y="52.5272" extent="1-16" drill="0.35"/>
 <wire x1="67.0306" y1="52.5272" x2="49.1744" y2="52.5272" width="0.8128" layer="16"/>
 <wire x1="67.0306" y1="52.5272" x2="68.6054" y2="54.102" width="0.8128" layer="16"/>
 <wire x1="68.6054" y1="54.102" x2="68.6054" y2="72.3504" width="0.8128" layer="16"/>
 <wire x1="68.6054" y1="72.3504" x2="73.2696" y2="77.0146" width="0.8128" layer="16"/>
-<wire x1="49.1744" y1="52.5272" x2="49.149" y2="52.5018" width="0.8128" layer="1"/>
-<wire x1="49.149" y1="52.5018" x2="49.149" y2="36.8818" width="0.8128" layer="1"/>
 <wire x1="57.5818" y1="26.2262" x2="57.584" y2="26.224" width="0.8128" layer="1"/>
 <wire x1="57.584" y1="26.224" x2="60.8252" y2="26.224" width="0.8128" layer="1"/>
+<wire x1="52.1416" y1="33.8892" x2="41.0972" y2="44.9336" width="0.8128" layer="1"/>
+<wire x1="41.0972" y1="44.9336" x2="41.0972" y2="52.5526" width="0.8128" layer="1"/>
+<wire x1="41.0972" y1="52.5526" x2="31.75" y2="52.5526" width="0.8128" layer="1"/>
+<wire x1="31.75" y1="52.5526" x2="30.2514" y2="54.0512" width="0.8128" layer="1"/>
+<wire x1="41.0972" y1="52.5526" x2="49.149" y2="52.5526" width="0.8128" layer="1"/>
+<wire x1="49.149" y1="52.5526" x2="49.1744" y2="52.5272" width="0.8128" layer="1"/>
+<via x="49.1744" y="52.5272" extent="1-16" drill="0.45"/>
 </signal>
 <signal name="N$5">
 <contactref element="D3" pad="3"/>
@@ -1366,6 +1373,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
