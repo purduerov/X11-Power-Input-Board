@@ -2388,6 +2388,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/1" library_version="1">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:39354/1" type="box" library_version="1">
+<description>LED 0603 SMT
+0603, surface mount.
+Specifications:
+Pin count: 2
+Pin pitch:0.075inch 
+Area: 0.06" x 0.03"
+
+Example device(s):
+LED - BLUE</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2643,6 +2696,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="79.031" y="2.7676" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$7" library="PDB_PCB_connectors" package="PDB_PCB_2" value="PDB_PCB_CONNEC" x="0" y="0"/>
+<element name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="" x="59.3598" y="110.9472" rot="R180">
+<attribute name="NAME" x="59.3598" y="110.3122" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="59.3598" y="111.5822" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470" x="64.2874" y="110.9726">
+<attribute name="NAME" x="64.2874" y="111.7346" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="64.2874" y="110.9726" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="64.2874" y="109.8296" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2918,6 +2980,10 @@ design rules under a new name.</description>
 <vertex x="100.0252" y="30.5562"/>
 <vertex x="120.777" y="30.5562"/>
 </polygon>
+<contactref element="R4" pad="2"/>
+<wire x1="65.1374" y1="110.9726" x2="69.469" y2="110.9726" width="0.8128" layer="1"/>
+<wire x1="69.469" y1="110.9726" x2="72.6265625" y2="114.1301625" width="0.8128" layer="1"/>
+<wire x1="72.6265625" y1="114.1301625" x2="73.1260375" y2="114.1301625" width="0.8128" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$5" pad="GND8"/>
@@ -3019,10 +3085,10 @@ design rules under a new name.</description>
 <vertex x="32.512" y="101.3206"/>
 </polygon>
 <polygon width="0.8128" layer="16" isolate="0.8128">
-<vertex x="50.927" y="112.6236"/>
+<vertex x="49.6316" y="112.6236"/>
 <vertex x="66.3956" y="112.6236"/>
 <vertex x="66.3956" y="54.9148"/>
-<vertex x="50.927" y="54.9148"/>
+<vertex x="49.6316" y="54.9148"/>
 </polygon>
 <polygon width="0.8128" layer="16" isolate="0.8128">
 <vertex x="99.06" y="66.7512"/>
@@ -3052,6 +3118,9 @@ design rules under a new name.</description>
 <vertex x="36.5252" y="82.6516"/>
 <vertex x="28.0924" y="82.6516"/>
 </polygon>
+<contactref element="D5" pad="C"/>
+<wire x1="58.4828" y1="110.9472" x2="55.3974" y2="110.9472" width="0.8128" layer="1"/>
+<via x="55.3974" y="110.9472" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$5" pad="D_GND"/>
@@ -3100,6 +3169,12 @@ design rules under a new name.</description>
 <vertex x="95.8596" y="0.7112"/>
 <vertex x="85.6234" y="0.7112"/>
 </polygon>
+</signal>
+<signal name="N$4">
+<contactref element="D5" pad="A"/>
+<contactref element="R4" pad="1"/>
+<wire x1="60.2368" y1="110.9472" x2="63.412" y2="110.9472" width="0.8128" layer="1"/>
+<wire x1="63.412" y1="110.9472" x2="63.4374" y2="110.9726" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
