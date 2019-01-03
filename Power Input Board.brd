@@ -2952,10 +2952,10 @@ design rules under a new name.</description>
 <vertex x="110.567784375" y="132.292334375"/>
 </polygon>
 <polygon width="0.8128" layer="1" isolate="0.8128">
-<vertex x="92.867728125" y="19.5645375"/>
-<vertex x="103.33806875" y="13.136909375"/>
+<vertex x="93.426528125" y="19.5137375"/>
+<vertex x="103.462596875" y="13.352703125"/>
 <vertex x="118.379253125" y="39.20175625"/>
-<vertex x="108.56271875" y="45.127053125"/>
+<vertex x="108.993178125" y="44.867225"/>
 </polygon>
 <polygon width="0.8128" layer="1" isolate="1.016">
 <vertex x="109.474" y="85.3186"/>
